@@ -10,7 +10,7 @@ import { RegisterComponent } from '../register/register.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    // AppComponent,
     RegisterComponent
     // Removed AuthService from declarations
   ],
@@ -20,6 +20,6 @@ import { RegisterComponent } from '../register/register.component';
     HttpClientModule
   ],
   providers: [AuthService], // Add AuthService in providers
-  bootstrap: [AppComponent]
+  // bootstrap: [AppComponent]
 })
 export class AppModule { }
